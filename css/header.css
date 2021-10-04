@@ -1,0 +1,63 @@
+.header-container{
+    padding-top: 20px;
+    border-bottom: 3px solid #6D6D6D;
+    padding-bottom: 5px;
+}
+
+.header-container .logo-container{
+    width: 150px;
+}
+
+.login-section{
+    text-align: right;
+}
+
+.header-container .menu-container .menu-section{
+    margin-top: 20px;
+    font-family: sourceSansSemiBold;
+}
+
+.header-container .menu-container .menu-section .top-menu{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header-container .menu-container a{
+    text-decoration: none;
+    color: #6D6D6D;
+    font-size: 17px;
+}
+
+.header-container .menu-container a:hover{
+    text-decoration: underline;
+}
+
+.header-container .menu-container a.active{
+    color: #F7F7F5;
+    border: 1px solid #FF0000;
+    border-radius: 20px;
+    background-color: #FF0000;
+    padding: 3px 12px;
+}
+
+.logo-header{
+    font-family: sourceSansBold;
+    font-size: 2.25em;
+    background: -webkit-linear-gradient(0deg, #FF0000, #0070C0, #00B050, #FF6600, #DB6E6E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 5s ease infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
