@@ -28,16 +28,16 @@
                     <a href="/">Home</a>
                 </div>
                 <div class="footer-menu">
-                    <a href="history.php">History</a>
+                    <a href="history.html">History</a>
                 </div>
                 <div class="footer-menu">
-                    <a href="committee.php">Committee Members</a>
+                    <a href="committee.html">Committee Members</a>
                 </div>
                 <div class="footer-menu">
-                    <a href="gallery.php">Gallery</a>
+                    <a href="gallery.html">Gallery</a>
                 </div>
                 <div class="footer-menu">
-                    <a href="contact.php">Contact Us</a>
+                    <a href="contact.html">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -46,19 +46,19 @@
             <div class="footer-section">
                 <div class="footer-menu-title">Important Links</div>
                 <div class="footer-menu">
-                    <a href="men-fellowship.php">Men's fellowship</a>
+                    <a href="men-fellowship.html">Men's fellowship</a>
                 </div>
                 <div class="footer-menu">
-                    <a href="women-fellowship.php">Women's fellowship</a>
+                    <a href="women-fellowship.html">Women's fellowship</a>
                 </div>
                 <div class="footer-menu">
-                    <a href="youth-fellowship.php">Youth fellowship</a>
+                    <a href="youth-fellowship.html">Youth fellowship</a>
                 </div>
                 <div class="footer-menu">
-                    <a href="sunday-class.php">Sunday Class</a>
+                    <a href="sunday-class.html">Sunday Class</a>
                 </div>
                 <div class="footer-menu">
-                    <a href="testimonials.php">Testimouials</a>
+                    <a href="testimonials.html">Testimouials</a>
                 </div>
             </div>
         </div>

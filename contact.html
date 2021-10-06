@@ -1,7 +1,3 @@
-<?php
-session_start();
-require_once("./includes/db.php");
-?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -18,9 +14,42 @@ require_once("./includes/db.php");
     <body>
         <div class="body-container">
             <div class="view-container">
-                <?php
-                        require_once("./includes/header.php");
-                ?>
+                <div class="top-container">
+                    <div class="header-container">
+                        <div class="logo-container fl">
+                            <img src="./images/logo_new_300.png" class="img-responsive" >
+                        </div>
+                        <div class="logo-header fl">
+                            CSI KCD Memorial Church
+                        </div>
+                        <div class="menu-container fr">
+                            <div class="login-section">
+                                <a href="login.html">Login</a>
+                            </div>
+                
+                            <div class="menu-section">
+                                <div class="top-menu">
+                                    <a href="index.html" class="">Home</a>
+                                </div>
+                                
+                                <div class="top-menu">
+                                    <a href="history.html" class="">History</a>
+                                </div>
+                                <div class="top-menu">
+                                    <a href="committee.html" class="">committee Members</a>
+                                </div>
+                                <div class="top-menu">
+                                    <a href="gallery.html" class="">Gallery</a>
+                                </div>
+                                <div class="top-menu">
+                                    <a href="contact.html" class="active">Contact Us</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="cb"></div>
+                    </div>
+                </div>
 
                 <div class="main-container contactus-page">
                     <h2>Contact Us</h2>
@@ -67,9 +96,73 @@ require_once("./includes/db.php");
                     <div class="cb"></div>
                 </div>
 
-                <?php
-                    require_once("./includes/footer.php");
-                ?>
+                <div class="bottom-container">
+                    <div class="footer-container">
+                        <div class="social-network-container footer-content fl bline">
+                            <div class="subscribe-container">
+                                <div class="subscribe-title">
+                                Please subscribe with your email ID for latest information and newsletters
+                                </div>
+                                <input type="email" name="subscribe_email" placeholder="Email Address" class="primary-input subsribe-email">
+                                <input type="button" name="subscribe_btn" value="Sign-up" class="primary-btn">
+                
+                                <div class="subscribe-error-container">
+                                    
+                                </div>
+                            </div>
+                            <div>
+                                <div class="social-network-icons fb-icon"></div>
+                                <div class="social-network-icons in-icon"></div>
+                                <div class="social-network-icons tw-icon"></div>
+                                <div class="social-network-icons yt-icon"></div>
+                                <div class="social-network-icons wa-icon"></div>
+                            </div>
+                        </div>
+                
+                        <div class="footer-content fl bline footer-content-menu">
+                            <div class="footer-section">
+                                <div class="footer-menu-title">Menu</div>
+                                <div class="footer-menu">
+                                    <a href="/">Home</a>
+                                </div>
+                                <div class="footer-menu">
+                                    <a href="history.html">History</a>
+                                </div>
+                                <div class="footer-menu">
+                                    <a href="committee.html">Committee Members</a>
+                                </div>
+                                <div class="footer-menu">
+                                    <a href="gallery.html">Gallery</a>
+                                </div>
+                                <div class="footer-menu">
+                                    <a href="contact.html">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="footer-content fl footer-content-menu">
+                            <div class="footer-section">
+                                <div class="footer-menu-title">Important Links</div>
+                                <div class="footer-menu">
+                                    <a href="men-fellowship.html">Men's fellowship</a>
+                                </div>
+                                <div class="footer-menu">
+                                    <a href="women-fellowship.html">Women's fellowship</a>
+                                </div>
+                                <div class="footer-menu">
+                                    <a href="youth-fellowship.html">Youth fellowship</a>
+                                </div>
+                                <div class="footer-menu">
+                                    <a href="sunday-class.html">Sunday Class</a>
+                                </div>
+                                <div class="footer-menu">
+                                    <a href="testimonials.html">Testimouials</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cb"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
