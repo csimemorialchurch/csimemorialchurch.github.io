@@ -1,25 +1,3 @@
-<?php
-session_start();
-/*require_once("./includes/db.html");
-if(isset($_POST["loginSubmit"])){
-    $uname = $_POST['loginUsername'];
-	$upass = $_POST['loginPassword'];
-
-    if($uname !== "" && $upass !== ""){
-        $validate_sql = "select * from useraccount where loginID='".$uname."' and loginPassword='".$upass."'";
-        echo $conn;
-        $result = $conn->query($validate_sql);
-        echo $result;
-        if($result->num_rows == 1){
-            while($row=$result->fetch_assoc()){
-                $row=$result->fetch_assoc();
-                $_SESSION['userName'] = $row['userName'];
-                header('Location: index.html');
-            }
-        }
-    }
-}*/
-?>
 <!DOCTYPE html>
 <html>
     <head>
